@@ -69,9 +69,57 @@
     
     shopbestdeal {
     margin: auto 108px;
+        width:100px;
+        font-size:7px;
         
     }
+    #head-1 {
+     font-size:0.9em;
+    }
+    #head-2
+    {
+     font-size:2rem;   
+        
+    }
+    #head-3{
+        
+     font-size:2rem;   
+    }
+    #head-4 {
+        font-size:1rem;
+    }
+    #head-5 {
+     font-size:1rem;   
+        
+    }
+    .box {
+   margin-top:132px;     
+    }
+   
+    .best-deal-cards {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    flex-direction: column;
+}
+    .best-deal-cards img {
+     width:166px;
+        height:137px;
+    }
+    cart-head {
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 95px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 9px;
+}
     
-    
+ 
     
 }
