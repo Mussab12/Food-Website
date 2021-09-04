@@ -1,0 +1,106 @@
+@media screen and (max-width:800px) {
+    #first-header ul {
+        display: none;
+    }
+    #togglearea {
+        display: flex;
+    }
+    #toggle:checked + #first-header ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .login_btn {
+        display: none;
+    }
+    #second-header ul {
+        display: flex;
+        flex-direction: column;
+         
+    }
+    #third-header {
+        display: none;
+    }
+   .search-icon {
+           width: 359px;
+           margin-left: 140px;
+   } 
+   input[type="text"]
+   {
+       width: 240px;
+   }
+ .box {
+         padding: 10px 7px;
+         margin-left: 0;
+         display: flex;
+         align-items: center;
+ }   
+   
+ .best-deal-cards {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin:0;
+ 
+    }
+    .shopbestdeal {
+        margin:auto 271px;
+    }
+}
+@media screen and (max-width:637px) and (min-width:509px) {
+    .deal-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home-container {
+    margin: 60px 0px;
+}
+#head-1 {
+    text-align: center;
+}
+#head-2 {
+    text-align: center;
+}
+#head-3 {
+    text-align: center;
+}
+#head-4 {
+    text-align: center;
+}
+#head-5 {
+    text-align: center;
+}
+
+}
+@media screen and (max-width:508px) and (min-width:413px) {
+       .deal-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home-container {
+    margin:59px 3px;
+}
+#head-1 {
+    text-align: center;
+}
+#head-2 {
+    text-align: center;
+}
+#head-3 {
+    text-align: center;
+}
+#head-4 {
+    text-align: center;
+}
+#head-5 {
+    text-align: center;
+}
+
+    
+}
+
+    
+    
