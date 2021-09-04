@@ -4,6 +4,8 @@
         display: none;
 
     }
-    
+    #third-header ul {
+        display:none
+    }
     
 }  
