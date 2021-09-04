@@ -179,7 +179,7 @@
                width: 100%;
                height: 100vh;
                animation: animate 16s ease-in-out infinite;
-               /* background: url('/IMG/chad-montano--GFCYhoRe48-unsplash.jpg') no-repeat center center/cover; */
+               /* background: url('./IMG/chad-montano--GFCYhoRe48-unsplash.jpg') no-repeat center center/cover; */
                top: 0;
                left: 0;
                z-index: -3;
@@ -187,16 +187,16 @@
            }
             @keyframes animate {
                0%,100%{
-                   background: url('/IMG/chad-montano--GFCYhoRe48-unsplash.jpg') no-repeat center center/cover;
+                   background: url('./IMG/chad-montano--GFCYhoRe48-unsplash.jpg') no-repeat center center/cover;
                    opacity:0.67;
                }
                25% 
                {
-                   background: url('/IMG/chad-montano-MqT0asuoIcU-unsplash.jpg') no-repeat center center/cover;
+                   background: url('./IMG/chad-montano-MqT0asuoIcU-unsplash.jpg') no-repeat center center/cover;
                    opacity:0.67;
                }
                50% {
-                   background: url('/IMG/matthew-reyes-5I5aqYJrdso-unsplash.jpg') no-repeat center center/cover;
+                   background: url('./IMG/matthew-reyes-5I5aqYJrdso-unsplash.jpg') no-repeat center center/cover;
                    opacity: 0.67;
                }
 
