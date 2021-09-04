@@ -59,3 +59,19 @@
         
     }
 }  
+@media screen and (max-width:568px) and (min-height:320px) {
+   
+     
+    .home-container {
+    margin: 55px 0px;
+    width: 289px;
+    }
+    
+    shopbestdeal {
+    margin: auto 108px;
+        
+    }
+    
+    
+    
+}
