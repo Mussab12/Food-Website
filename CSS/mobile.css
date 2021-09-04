@@ -7,5 +7,55 @@
     #third-header ul {
         display:none
     }
-    
+    #second-header ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+    .search-icon {
+        width:251px;
+        height:60px;
+        margin-left:0px;
+        
+    }
+    input[type="text"] {
+     width:240px;   
+    }
+    .home-container {
+     margin:55px 0px;
+        width:374px;
+    }
+    .deal-box {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+    .box img {
+    width: 47px;
+    height: 38px;
+    padding: 10px;
+}
+ .box {
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    padding: 10px 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 36px;
+    margin-top: 100px;
+}
+    .best-deal-cards {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    flex-direction: column;
+}
+    .shopbestdeal {
+         margin: auto 178px;
+        padding: 10px;
+        
+    }
 }  
